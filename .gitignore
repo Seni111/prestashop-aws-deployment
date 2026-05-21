@@ -1,0 +1,17 @@
+# Keys & credentials — NEVER commit these
+*.pem
+*.key
+.env
+*.env
+config/settings.inc.php
+
+# PrestaShop runtime files
+var/cache/
+var/logs/
+upload/
+download/
+img/tmp/
+
+# OS clutter
+.DS_Store
+Thumbs.db
